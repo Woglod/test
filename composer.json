@@ -1,0 +1,19 @@
+{
+    "name": "evgen/test",
+    "description": "test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgen Dolhov",
+            "email": "woglod88@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require":{},
+        "autoload": {
+                "psr-4": {
+                    "ls\\": ""
+                }
+        }
+}
