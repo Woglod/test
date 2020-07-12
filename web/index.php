@@ -1,12 +1,17 @@
 <?php
 
 
+use App\shop\Book;
+use App\shop\NoteBook;
+use App\shop\Pencil;
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 require __DIR__ . "/../vendor/autoload.php";
 
-$book = new \ls\app\shop\Book();
-$pencil = new \ls\app\shop\Pencil();
+$book = new Book();
+$pencil = new Pencil();
 $pencil->getQuantity();
 
-(new \ls\app\shop\NoteBook());
-
-
+$notebook = new NoteBook();

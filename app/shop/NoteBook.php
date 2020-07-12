@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ls\app\shop;
+namespace App\shop;
 
 
 class NoteBook
