@@ -15,3 +15,7 @@ $pencil = new Pencil();
 $pencil->getQuantity();
 
 $notebook = new NoteBook();
+
+echo $notebook->getBrand();
+$notebook->setBrand('Samsung');
+echo $notebook->getBrand();
