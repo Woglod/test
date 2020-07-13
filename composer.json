@@ -10,11 +10,11 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
+    "require":{},
+        "autoload": {
+                "psr-4": {
+                    "ls\\": ""
+                }
         }
-    }
-
 }
+
